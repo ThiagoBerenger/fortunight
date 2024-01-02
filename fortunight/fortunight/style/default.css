@@ -1,0 +1,65 @@
+
+/* -----------------------  Aqui é declarado as propriedades que serão utilizadas como DEFAULT em todas as páginas.   ---------------------------------------------------*/
+
+@charset "UTF-8";
+
+/*--------------------------------------------------------------- IMPORTAÇÃO DE FONTES ------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,600;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+/*--------------------------------------------------------------- PALETA DE CORES ------------------------------------------------------------------------*/
+
+:root {
+    --red: #732C39;
+    --darkblue: #1B1A26;
+    --green: #758C51;
+    --salmon: #F2B694;
+    --orange: #BF6849;
+}
+
+/*--------------------------------------------------------------- REGRAS GERAIS ------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+svg {
+    width: 100%;
+}
+
+i {
+    color: var(--red);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+

@@ -1,0 +1,129 @@
+/* ------------------------------------------------------- Regras Gerais --------------------------------------------------------------*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--darkblue);
+}
+
+h1 {
+    font-style: italic;
+    text-transform: uppercase;
+    color:var(--red);
+    text-shadow: 0 0 10px var(--red);
+    height: 49px;
+    font-size: 45px;
+    /* ---- Configs do Efeito de entrada (@keyframes entradatitle)---*/
+    animation-name: entradatitle;
+    animation-duration: 1s;
+    transition: ease-in;
+    /* --------------------------------------------------------------*/
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+}
+
+img {
+    width: 6em;
+}
+    
+ /* ---------------------------------------- Classes ------------------------------------------------------------------------------------- */   
+    
+.login-input, .password-input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+
+.login-form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+    
+   
+.login-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.alert {
+    background-color: var(--orange);
+    color: var(--darkblue);
+    padding: 5px;
+}
+
+
+.login-button {
+    color:var(--darkblue);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    max-width: 300px;
+    cursor: pointer;
+    width: 100%;
+    border: 0px;
+    border-radius: 8px;
+    background-color: var(--red);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.register-button {
+    color:var(--darkblue);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    max-width: 300px;
+    cursor: pointer;
+    width: 100%;
+    border: 0px;
+    border-radius: 8px;
+    background-color: var(--orange);
+    transition: box-shadow .3s ease-in-out;
+}
+
+
+
+/*  ---------------------- ANIMAÇÕES --------------------------- */ 
+
+/* ----------------- Ao clicar no PLAY --------------------------*/ 
+.login-button:hover {
+    box-shadow: 0 0 15px var(--red);
+    text-shadow: 0 0 1px var(--darkblue);
+}
+/*  ----------- Animação de entrada da logo + title ---------------*/
+@keyframes entradatitle {
+    from {
+        height: 0px;
+        z-index: -1;
+        
+    }
+
+    to {
+        height: 49px;
+        text-shadow: 0 0 10px var(--red);
+        
+    }
+}
+    
+    
+   
+
+
+
+
+
