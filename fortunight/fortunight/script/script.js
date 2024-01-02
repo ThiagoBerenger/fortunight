@@ -1,10 +1,7 @@
 
 const playerNameInput = document.querySelector('.login-input')
-const playerPasswordInput = document.querySelector('.password-input')
 const loginButton = document.querySelector('.login-button')
 const mensageError =  document.querySelector('.alert')
-const registerButton = document.querySelector('.register-button')
-
 
 
 //validate login
@@ -14,7 +11,6 @@ mensageError.style.display = 'none';
 loginButton.addEventListener('click', function validarLogin() {
 
     const playerName = playerNameInput.value;
-    const playerPassword = playerPasswordInput.value;
 
     if(playerName.trim().length < 4 || playerPassword.trim().length < 6) {
     
@@ -26,15 +22,6 @@ loginButton.addEventListener('click', function validarLogin() {
 
 
     localStorage.setItem('player', playerNameInput.value)
-    window.location = "saladejogos.html"
+    window.location = "./pages/gameroom.html"
 
 })
-
-
-//Create Account
-
-registerButton.addEventListener('click', function register() {
-     window.location = 'register.html'
-})
-
-//remake
