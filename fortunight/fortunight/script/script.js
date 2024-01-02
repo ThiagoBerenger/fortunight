@@ -12,7 +12,7 @@ loginButton.addEventListener('click', function validarLogin() {
 
     const playerName = playerNameInput.value;
 
-    if(playerName.trim().length < 4 || playerPassword.trim().length < 6) {
+    if(playerName.trim().length < 4) {
     
         mensageError.innerText = 'Seu nome deve ter no mímino 4 caracteres e sua senha deve ter no mínimo 6 caracteres!'
         mensageError.style.display = 'block'
