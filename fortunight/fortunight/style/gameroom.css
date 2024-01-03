@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #1B1A26;
 }
 
 .content h1 {
@@ -43,4 +44,31 @@
     cursor: pointer;
     width: 25.4%;
 }
+
+.message-box {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+}
+
+.message-box img {
+    width: 35%;
+    border: 1px solid var(--green);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
+}
+
+.player {
+    padding: 2em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+
+
+
 

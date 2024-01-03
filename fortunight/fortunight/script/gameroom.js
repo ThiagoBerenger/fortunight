@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const spanPlayer = document.querySelector('.player');
     const playerName = localStorage.getItem('player');
     
-
     spanPlayer.innerHTML = `WELLCOME TO FORTUNIGHT, ${playerName}!`  
     
 });
@@ -25,8 +24,7 @@ function jogarDado() {
     console.log(`Resultado: ${dado[0]}`)
 }
 
-jogarDado()
-jogarDado()
+
 
  
 

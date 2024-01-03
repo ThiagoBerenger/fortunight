@@ -10,37 +10,42 @@
      <!--Icons Library-->
      <script src="https://kit.fontawesome.com/4e522e190a.js" crossorigin="anonymous"></script>
      <!--Scripts-->
-    <script src="gameroom.js" defer></script>
+    <script src="../script/gameroom.js" defer></script>
 </head>
 <body>
     <header>
-        <div id="logo"><img src="/fortunight/fortunight/images/logo-branco.png" alt="logo-site"></div>
-        <div id="title">Fortunight</div>
-        <nav>
-            <ul>
-                <li><a href="#"></a><i class="fa-solid fa-user fa"></i></li>
-                <li><a href="#"></a><i class="fa-solid fa-wallet"></i></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <div id="logo"><img src="/fortunight/fortunight/images/logo-branco.png" alt="logo-site"></div>
+            <div id="title">Fortunight</div>
+            <nav>
+                <ul>
+                    <li>
+                        <div class="game-menu">
+                            <a href="#"></a><i class="fa-solid fa-dice">games</i>
+                            <div class="game-box">
+                                <ul>
+                                    <li>Dice</li>
+                                    <li>21</li>
+                                    <li>Caça níquel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#"></a><i class="fa-solid fa-user">perfil</i></li>
+                    <li><a href="#"></a><i class="fa-solid fa-gear">settings</i></li>
+                </ul>
+            </nav>
+            <!--criar carteira-->
+        </div>
     </header>
     <div class="content">
 
-        <h1>Gameroom</h1>
+    <div class="message-box">
+        
+        <span class="player">Nome</span>
+        <img src="../images/pop-up.png" alt="img">
 
-        <div class="games">
-            <div class="games-thumb">
-                <h2>Dice Game</h2>
-                <img src="../images/thumb-1.png" alt="">
-            </div>
-            <div class="games-thumb">
-                <h2>Dice Game</h2>
-                <img src="../images/thumb-2.png" alt="">
-            </div>
-            <div class="games-thumb">
-                <h2>Dice Game</h2>
-                <img src="../images/thumb-3.png" alt="">
-            </div>
-        </div>
+    </div>
 
     </div>
  
