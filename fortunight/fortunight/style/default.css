@@ -96,7 +96,16 @@ nav {
 
 nav ul li {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 2em;
+}
+
+a i {
+    margin-right: 1rem;
+}
+
+
+.fa-solid {
+    margin-left: 2rem;
 }
 
 nav ul {
@@ -120,7 +129,7 @@ nav ul li i:hover {
     position: absolute;
     display: block;
     top: 3rem;
-    left: 24rem;
+    left: 27rem;
     cursor: pointer;
 }
 
@@ -130,6 +139,7 @@ nav ul li i:hover {
     background-color: #fff;
     border-bottom: 1px solid black;;
 }
+
 
 
 
