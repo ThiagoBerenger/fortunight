@@ -1,49 +1,46 @@
-html, 
-body {
-    height: 100vh;
-    width: 100%;
-    background-color: var(--darkblue);
-}
-
-header {
-    height: 10vh;
-    width: 100%;
-    margin: 10px auto;
+.content {
     display: flex;
-    border-bottom: 1px solid var(--red);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#logo {
-    margin-left: 10px;
-    height: 50px;
-    width: 50px;
-}
-
-#title {
-    color: #fff;
+.content h1 {
+    color: white;
+    font-size: 32px;
     font-style: italic;
-    font-weight: bold;
-    margin: 19px;
+    text-transform: uppercase;
+    padding: 2em 0 4em 0;
 }
 
-nav {
-    width: 90%;
+.games {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-left: 15px;
+.games-thumb {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
 }
 
-nav ul {
-    margin: 20px auto;
+.games-thumb img {
+    width: 95%;
+    height: 120%;
+    border-radius: 10px;
+    cursor: pointer;
+    object-fit: cover;
 }
 
-nav ul li i:hover {
-    color: #fff;
+.games-thumb h2 {
+    position: absolute;
+    color: white;
+    padding: .5em;
+    background-color: red;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    width: 25.4%;
 }
-
-
-
-
 

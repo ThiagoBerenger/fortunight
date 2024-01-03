@@ -38,10 +38,6 @@ ul {
     list-style: none;
 }
 
-img {
-    width: 100%;
-}
-
 svg {
     width: 100%;
 }
@@ -50,6 +46,70 @@ i {
     color: var(--red);
     cursor: pointer;
 }
+
+/* ----- Header ----- */
+
+html, 
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--darkblue);
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--red);
+}
+
+#logo {
+    margin-left: 2em;
+    transition: .5s ease;
+}
+
+#logo img{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#title {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    margin: 19px;
+}
+
+nav {
+    width: 90%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul {
+    margin: 20px auto;
+}
+
+nav ul li i:hover {
+    color: #fff;
+}
+
+/* animation */
+
+#logo:hover {
+    background-color: #ffffff50;
+    border-radius: 50%;
+}
+
 
 
 
